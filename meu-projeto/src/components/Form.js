@@ -22,6 +22,7 @@ function Form(){
                         name="name" 
                         placeholder="Digite o seu nome"
                         onChange={(e) => setName(e.target.value)}
+                        autoComplete="current-password"
                     />
                 </div>
                 <div>
@@ -32,6 +33,7 @@ function Form(){
                         name="password" 
                         placeholder="Digite a sua senha"
                         onChange={(e) => setPassword(e.target.value)}
+                        autoComplete="current-password"
                     />
                 </div>
                 <div>
